@@ -127,9 +127,7 @@ body {
 .btn-secondary:hover {
   background-color: var(--primary-color);
 }
-
 /* Navbar */
-
 nav {
   position: fixed;
   z-index: 100;
@@ -170,7 +168,6 @@ nav {
 }
 
 /* Home */
-
 #home {
   padding-top: 9vh;
   height: 100vh;
@@ -197,6 +194,7 @@ nav {
   height: 100%;
   width: 100%;
 }
+
 
 /* About */
 
@@ -489,13 +487,13 @@ nav {
 /* Media */
 
 @media only screen and (max-width: 767px) {
-  /* Navbar */
   body {
     overflow-x: hidden;
   }
 
   .brand img {
     width: 50vw;
+    height: auto; /* Ensures the aspect ratio is maintained */
   }
 
   .menu {
@@ -548,6 +546,7 @@ nav {
 
   .brand img {
     height: 60px; /* Adjusted height for responsiveness on mobile */
+    width: auto;  /* Ensures the aspect ratio is maintained */
   }
 
   #home .home-container {
