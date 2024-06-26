@@ -3,9 +3,9 @@
 :root {
   --nav-height: 9vh;
   --nav-overlay-width: 40%;
-  --primary-color: #ff69b4;
+  --primary-color: #FF8686;
   --secondary-color: #fff0f5;
-  --bg-1: #ffc0cb;
+  --bg-1:#FF8686;
 }
 
 * {
@@ -28,7 +28,6 @@ section {
   line-height: 77px;
   margin-bottom: 30px;
   color: #000 !important;
-  text-shadow: 0px 0px 4px #000000;
 }
 .home-desc {
   font-size: 20px;
@@ -119,7 +118,7 @@ body {
 }
 
 .btn-secondary {
-  background-color: #d03c72e8;
+  background-color: #FF8686;
   color: #ffffff;
 }
 
@@ -179,8 +178,8 @@ nav {
   width: 100%;
   padding: 0 10%;
   background-image: linear-gradient(
-      rgba(255, 105, 180, 0.7),
-      rgba(255, 105, 180, 0.7)
+      rgba(255, 105, 180, 0.309),
+      rgba(255, 105, 180, 0.512)
     ),
     url("../content/slide/slide-1.jpg");
   background-position: center;
@@ -259,7 +258,7 @@ nav {
 .numerical-data h2 {
   font-size: 3rem;
   font-weight: bolder;
-  color: #ff1493;
+  color: #C4006A;
 }
 
 .numerical-data p {
@@ -314,7 +313,7 @@ nav {
 }
 
 #services .box .icon i:before {
-  background: #ff69b4;
+  background: #FF8686;
   background: linear-gradient(
     45deg,
     var(--primary-color) 0%,
@@ -599,7 +598,7 @@ nav {
 }
 
 .wave .shape-fill {
-  fill: #ffb6c1;
+  fill: #FF8686;
 }
 
 /** For mobile devices **/
@@ -628,7 +627,7 @@ nav {
 }
 
 .wave-2 .shape-fill {
-  fill: #ffe4e1;
+  fill: #FF8686;
 }
 
 /** For mobile devices **/
